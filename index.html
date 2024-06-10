@@ -1,0 +1,1640 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=6.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+
+
+
+</head>
+
+<body>
+    <button class="one">Normal</button>
+    <button class="two">Normal</button>
+    <button class="three">Normal</button>
+    <button class="four">Normal</button>
+    <button class="five">Normal</button>
+    <button class="six">Normal</button>
+    <button class="seven">Normal</button>
+    <br></br>
+
+    <div class="disk">
+        <div class="dropdown" id="myDropdown">
+            <button class="dropbtn" onclick="toggleDropdown()">NORMAL <img id="arrowsNew1" src="./Arrow.svg"
+                    alt=""></button>
+
+            <div class="dropdown-content">
+                <option class="drops">Value 2</option>
+                <option class="drops">Value 2</option>
+                <option class="drops">Value 3</option>
+            </div>
+        </div>
+
+        <div class="dropdown1" id="myDropdown1">
+            <button class="dropbtn1" onclick="toggle()">DEFAULT <img id="arrowsNew2" src="./Arrow copy.svg"
+                    alt=""></button>
+            <div class="dropdown-content1">
+                <option class="drops1">Value 1</option>
+                <option class="drops1">Value 2</option>
+                <option class="drops1">Value 3</option>
+            </div>
+        </div>
+
+        <div class="dropdown2" id="myDropdown2">
+            <button class="dropbtn2" onclick="newToggle()">PRIMARY <img id="arrowsNew3" src="./Arrow.svg"
+                    alt=""></button>
+            <div class="dropdown-content2">
+                <option class="drops2">Value 2</option>
+                <option class="drops2">Value 2</option>
+                <option class="drops2">Value 3</option>
+            </div>
+        </div>
+
+        <div class="dropdown3" id="myDropdown3">
+            <button class="dropbtn3" onclick="newToggle4()">SUCCESS <img id="arrowsNew4" src="./Arrow.svg"
+                    alt=""></button>
+            <div class="dropdown-content3">
+                <option class="drops3">Value 3</option>
+                <option class="drops3">Value 3</option>
+                <option class="drops3">Value 3</option>
+            </div>
+        </div>
+
+        <div class="dropdown4" id="myDropdown4">
+            <button class="dropbtn4" onclick="newToggle5()">INFO <img id="arrowsNew5" src="./Arrow.svg" alt=""></button>
+            <div class="dropdown-content4">
+                <option class="drops4">Value 4</option>
+                <option class="drops4">Value 4</option>
+                <option class="drops4">Value 4</option>
+            </div>
+        </div>
+
+        <div class="dropdown5" id="myDropdown5">
+            <button class="dropbtn5" onclick="newToggle6()">WARNING <img id="arrowsNew6" src="./Arrow.svg"
+                    alt=""></button>
+
+            <div class="dropdown-content5">
+                <option class="drops5">Value 5</option>
+                <option class="drops5">Value 5</option>
+                <option class="drops5">Value 5</option>
+            </div>
+        </div>
+        <div class="dropdown6" id="myDropdown6">
+            <button class="dropbtn6" onclick="newToggle7()">DANGER<img id="arrowsNew7" src="./Arrow.svg"
+                    alt=""></button>
+            <div class="dropdown-content6">
+                <option class="drops6">Value 5</option>
+                <option class="drops6">Value 5</option>
+                <option class="drops6">Value 5</option>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+    <div class="disk">
+        <div class="dropdownNew" id="myDropdownNew">
+            <button class="dropbtnNew" onclick="toggleDropdownNew()">NORMAL
+                <span class="borders">
+
+                </span>
+                <img id="arrows" src="./Arrow.svg" alt=""></button>
+            </button>
+            <div class="dropdown-contentNew">
+                <option class="dropsNew">Value 2</option>
+                <option class="dropsNew">Value 2</option>
+                <option class="dropsNew">Value 3</option>
+            </div>
+        </div>
+
+        <div class="dropdown1New" id="myDropdown1New">
+            <button class="dropbtn1New" onclick="toggleNew()">DEFAULT <span class="borders"></span><img id="arrows1"
+                    src="./Arrow copy.svg" alt=""><i id="icons1" class="fas fa-caret-down"></i></button>
+            <div class="dropdown-content1New">
+                <option class="drops1New">Value 1</option>
+                <option class="drops1New">Value 2</option>
+                <option class="drops1New">Value 3</option>
+            </div>
+        </div>
+
+        <div class="dropdown2New" id="myDropdown2New">
+            <button class="dropbtn2New" onclick="newToggleNew()">PRIMARY<span class="borders"></span><img id="arrows2"
+                    src="./Arrow.svg" alt=""><i id="icons2" class="fas fa-caret-down"></i></button>
+            <div class="dropdown-content2New">
+                <option class="drops2New">Value 2</option>
+                <option class="drops2New">Value 2</option>
+                <option class="drops2New">Value 3</option>
+            </div>
+        </div>
+
+        <div class="dropdown3New" id="myDropdown3New">
+            <button class="dropbtn3New" onclick="newToggle4New()">SUCCESS <span class="borders"></span><img id="arrows3"
+                    src="./Arrow.svg" alt=""><i id="icons3" class="fas fa-caret-down"></i></button>
+            <div class="dropdown-content3New">
+                <option class="drops3New">Value 3</option>
+                <option class="drops3New">Value 3</option>
+                <option class="drops3New">Value 3</option>
+            </div>
+        </div>
+
+        <div class="dropdown4New" id="myDropdown4New">
+            <button class="dropbtn4New" onclick="newToggle5New()">INFO<span class="borders"></span> <img id="arrows4"
+                    src="./Arrow.svg" alt=""><i id="icons4" class="fas fa-caret-down"></i></button>
+            <div class="dropdown-content4New">
+                <option class="drops4New">Value 4</option>
+                <option class="drops4New">Value 4</option>
+                <option class="drops4New">Value 4</option>
+            </div>
+        </div>
+
+        <div class="dropdown5New" id="myDropdown5New">
+            <button class="dropbtn5New" onclick="newToggle6New()">WARNING<span class="borders"></span><img id="arrows5"
+                    src="./Arrow.svg" alt=""><i id="icons5" class="fas fa-caret-down"></i></button>
+
+            <div class="dropdown-content5New">
+                <option class="drops5New">Value 5</option>
+                <option class="drops5New">Value 5</option>
+                <option class="drops5New">Value 5</option>
+            </div>
+        </div>
+        <div class="dropdown6New" id="myDropdown6New">
+            <button class="dropbtn6New" onclick="newToggle7New()">DANGER <span class="borders"></span><img id="arrows6"
+                    src="./Arrow.svg" alt=""><i id="icons6" class="fas fa-caret-down"></i></button>
+            <div class="dropdown-content6New">
+                <option class="drops6New">Value 5</option>
+                <option class="drops6New">Value 5</option>
+                <option class="drops6New">Value 5</option>
+            </div>
+        </div>
+    </div>
+
+    <div class="newBox">
+
+
+
+
+
+        <br><br><br>
+        <div class="newBtn">
+
+            <div class="box1" onclick="toggles()" id="animate">
+                <span class="menu1"></span>
+                <span class="menu2"></span>
+                <span class="menu3"></span>
+                <span class="menu4"></span>
+            </div>
+            <div class="box2" onclick="toggles1()" id="animate1">
+                <span class="menu5"></span>
+                <span class="menu6"></span>
+                <span class="menu7"></span>
+                <span class="menu8"></span>
+
+            </div>
+            <div class="box3" onclick="toggles2()" id="animate2">
+                <span class="menu9"></span>
+                <span class="menu10"></span>
+                <span class="menu11"></span>
+                <span class="menu12"></span>
+
+            </div>
+        </div>
+        <br><br><br>
+
+        <div class="newbadge">
+            <p class="badge">Normal</p>
+            <p class="badge1">DEFAULT</p>
+        </div>
+        <br><br><br>
+
+        <div class="tooltip">
+            <span class="tooltiptext">Tooltip text</span>
+        </div>
+        <br><br><br>
+
+        <div class="tooltip1">
+            <span class="tooltiptext1">Tooltip text</span>
+        </div>
+        <br><br><br>
+
+        <div class="tooltip2">
+            <span class="tooltiptext2">Tooltip text</span>
+        </div>
+        <br><br><br>
+
+        <div class="tooltip3">
+            <span class="tooltiptext3">Tooltip text</span>
+        </div>
+
+        <br><br><br>
+        <div class="dis">
+
+            <div class="images">
+
+                <div class="home">
+                    <img src="./home.png" alt="">
+                </div>
+                <div class="home">
+                    <img src="./contact.png" alt="">
+                </div>
+                <div class="home">
+                    <img src="./message.png" alt="">
+                </div>
+                <div class="home">
+                    <img src="./setting.png" alt="">
+                </div>
+            </div>
+            <br><br><br>
+            <div class="images1">
+
+                <div class="home1">
+                    <img src="./home1.png" alt="">
+                </div>
+                <div class="home1">
+                    <img src="./contact1.png" alt="">
+                </div>
+                <div class="home1">
+                    <img src="./message1.png" alt="">
+                </div>
+                <div class="home1">
+                    <img src="./setting1.png" alt="">
+                </div>
+            </div>
+        </div>
+
+
+        <div class="dropdowns">
+            <ul>
+                <li><a style="color: #aab2bd;">Setting</a></li>
+                <li><a>Action</a></li>
+                <li>
+                    <a style="color: #aab2bd;">Another action</a>
+
+                </li>
+                <li>
+                    <a class="center">Something else here <img class="direction" src="./Arrow.svg" alt=""></a>
+
+                    <ul>
+                        <li><a>Action1</a></li>
+                        <li><a>Actoin2</a></li>
+                        <li><a>Another action</a></li>
+                        <li><a class="bottoms">Something else here</a></li>
+
+                        <li><a>Seperated link</a></li>
+                    </ul>
+                </li>
+                <li>
+
+
+                </li>
+                <li><a>Separated link</a></li>
+            </ul>
+        </div>
+
+
+        <br><br><br>
+        <br><br><br>
+        <br><br><br>
+        <br><br><br>
+        <br><br><br>
+        <br><br><br>
+        <br><br><br>
+        <br><br><br>
+
+
+
+
+        <div class="text1">
+            <span class="propover1">
+                <p class="para1">Propover top</p>
+                <p class="newPara1">
+
+                    Sed posuere consectetur est at lobortis. Aenean eu leo quam. Pellentesque ornare sem lacinia quam
+                    venenatis vestibulum.
+                </p>
+            </span>
+        </div>
+        <br><br><br>
+        <br><br><br>
+        <br><br><br>
+        <br><br><br>
+
+
+
+        <div class="text2">
+            <span class="propover2">
+                <p class="para2">Propover right</p>
+                <p class="newPara2">
+
+                    Sed posuere consectetur est at lobortis. Aenean eu leo quam. Pellentesque ornare sem lacinia quam
+                    venenatis vestibulum.
+                </p>
+            </span>
+        </div>
+        <br><br><br>
+        <br><br><br>
+        <br><br><br>
+        <br><br><br>
+        <div class="text3">
+            <span class="propover3">
+                <p class="para3">Propover left</p>
+                <p class="newPara3">
+
+                    Sed posuere consectetur est at lobortis. Aenean eu leo quam. Pellentesque ornare sem lacinia quam
+                    venenatis vestibulum.
+                </p>
+            </span>
+        </div>
+        <br><br><br>
+        <br><br><br>
+        <br><br><br>
+        <br><br><br>
+
+        <div class="text4">
+            <span class="propover4">
+                <p class="para4">Propover bottom</p>
+                <p class="newPara4">
+
+                    Sed posuere consectetur est at lobortis. Aenean eu leo quam. Pellentesque ornare sem lacinia quam
+                    venenatis vestibulum.
+                </p>
+            </span>
+        </div>
+
+
+        <br><br><br>
+        <br><br><br>
+        <br><br><br>
+        <br><br><br>
+
+        <div class="first">
+            <input type="text" class="form1" placeholder="Text input">
+        </div>
+        <div class="top1">
+            <textarea class="area" cols="59" rows="5"></textarea>
+        </div>
+
+        <div class="top2">
+            <input type="text" class="form2">
+        </div>
+
+        <label class="paragraph1">input with success</label>
+        <br>
+
+        <div class="top3">
+            <input type="text" class="form4">
+            <img class="firstImg" src="./right.png">
+        </div>
+        <br>
+
+        <br>
+        <div class="top4">
+            <label class="paragraph2">Input with error</label>
+            <br>
+            <input type="text" class="form5">
+            <img class="secondImg" src="./close.png" alt="">
+        </div>
+        <br>
+        <div class="top5">
+            <input class="form6" type="text" placeholder="Google Search">
+            <img class="thirdImg" src="./newArrow.png" alt="">
+        </div>
+
+
+
+
+        <div class="newImage4">
+            <input class="form7" type="text" placeholder="Google Search">
+            <img class="fourthImg" src="./newArrow.png">
+            <ul class="dropdownd">
+                <li>Google Search</li>
+                <li>Boing Boing</li>
+                <li>BBC News</li>
+            </ul>
+        </div>
+
+
+        <br><br><br><br>
+        <br><br><br><br>
+        <br><br><br><br>
+        <br><br><br><br>
+
+
+
+        <div class="first1">
+            <input type="text" class="forms1" placeholder="Text input">
+        </div>
+        <br>
+
+        <div class="all1">
+            <button class="left1">$</button><input class="newInput1" type="text"><button class="right1">.00</button>
+        </div>
+        <br>
+
+
+        <div class="position1">
+            <button class="newBtn1">Action
+                <img src="./line2.png" alt="">
+                <img src="./drop.png" alt=""></button><input class="newInput2" type="text">
+            <button class="newBtn2">Action
+                <img src="./line.png" alt="">
+                <img src="./drop.png" alt=""></button>
+        </div>
+        <br>
+        <div class="position2">
+            <input class="search" type="text">
+            <button class="srchBtn">Search</button>
+        </div>
+        <br>
+        <label class="color1">Input with warning</label>
+
+
+        <div class="position3">
+            <input class="search1" type="text">
+            <img class="colors" src="./color.png" alt="">
+        </div>
+
+
+
+        <br>
+        <div class="position4">
+            <input class="numbers1" type="text">
+            <span class="position5">
+                <img class="aa1" src="./angle-up.png" alt="">
+                <img class="aa2" src="./first.png" alt="">
+                <img class="aa3" src="./angle-down.png" alt="">
+
+            </span>
+        </div>
+
+
+
+
+        <div>
+
+            <div class="newImage0">
+                <input class="form0" type="text" placeholder="Google Search">
+                <img class="fourthImg0" src="./newArrow.png">
+                <ul class="dropdownd0">
+                    <li value="One">One</li>
+                    <li>Two</li>
+                    <li>Three</li>
+                    <li>Four</li>
+                    <li>Five</li>
+                    <li>Six</li>
+                </ul>
+            </div>
+
+        </div>
+
+        <br><br><br><br>
+        <br><br><br><br>
+        <br><br><br><br>
+        <br><br><br><br>
+        <br><br><br><br>
+        <div>
+            <label class="container1">default
+                <input type="checkbox">
+                <span class="checkmark1"></span>
+            </label>
+
+            <label class="container2" style="cursor: not-allowed;">disabled
+                <input type="checkbox" disabled>
+                <span class="checkmark2"></span>
+            </label>
+
+            <label class="container1">checked
+                <input type="checkbox" checked="checkbox">
+                <span class="checkmark1"></span>
+            </label>
+
+
+            <label class="container3" style="cursor: not-allowed;">checked
+                <input type="checkbox" checked="checkbox" disabled>
+                <span class="checkmark3"></span>
+            </label>
+
+
+            <label class="container4">default
+                <input type="radio">
+                <span class="checkmark4"></span>
+            </label>
+
+            <label class="container4" style="cursor: not-allowed;">disabled
+                <input type="radio" disabled>
+                <span class="checkmark4"></span>
+            </label>
+
+            <label class="container4">checked
+                <input type="radio" checked="checkbox">
+                <span class="checkmark4"></span>
+            </label>
+
+
+            <label class="container5" style="cursor: not-allowed;">checked & disabled
+                <input type="radio" checked="checkbox" disabled>
+                <span class="checkmark5"></span>
+            </label>
+        </div>
+
+        <br>
+        <br>
+
+
+        <div class="alert">
+            <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+            <strong>Warning!</strong> Best check yo self, you're not looking too good.
+        </div>
+        <br>
+        <div class="alert1">
+            <span class="closebtn1" onclick="this.parentElement.style.display='none';">&times;</span>
+            <strong>Heads up! </strong>This alert needs your attention, but it's not
+        </div>
+        <br>
+        <div class="alert2">
+            <span class="closebtn2" onclick="this.parentElement.style.display='none';">&times;</span>
+            <strong>Well done!</strong> You successfully read this important alert
+        </div>
+
+
+        <br>
+        <div class="alert3">
+            <span class="closebtn3" onclick="this.parentElement.style.display='none';">&times;</span>
+            <b class="bold">Well done!</b>
+            <br><br> Change this and that and try again. <u class="under"> Duis mollis</u>, est non commodo luctus, nisi
+            erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum.
+            <button class="take">Take this action</button><a href="#" class="this">Or do this</a>
+        </div>
+
+
+        <h1>Tabs</h1>
+
+
+
+
+
+
+
+
+        <div class="fullTab">
+            <div class="tab">
+                <button class="tablinks active" data-city="first">Home
+                </button>
+
+                <button class="tablinks" data-city="second">Profile</button>
+
+                <button id="visiblee" class="tablinks2">Dropdown <img src="./newArrow.png" alt=""></button>
+
+                <div id="related" class="relate">
+                    <li class="links1" data-content="fourth">Home</li>
+                    <li class="links1" data-content="fifth">Home</li>
+                    <li class="links1" data-content="sixth">Home</li>
+                </div>
+            </div>
+
+            <div id="first" class="tabcontent5 " style="display: block;">
+                <p>1Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua,
+                    retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica.</p>
+            </div>
+
+            <div id="second" class="tabcontent5 active">
+                <p>2Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua,
+                    retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica.</p>
+            </div>
+
+            <div id="fourth" class="tabcontent5">
+                <p>4Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua,
+                    retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica.</p>
+            </div>
+            <div id="fifth" class="tabcontent5">
+                <p>5Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua,
+                    retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica.</p>
+            </div>
+            <div id="sixth" class="tabcontent5">
+                <p>6Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua,
+                    retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica.</p>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <br><br><br>
+
+
+
+
+
+
+    <div class="fullTab1">
+        <div class="tab1">
+            <div>
+
+                <button class="tablinks1 active" data-city="first1">Home
+                </button>
+            </div>
+            <div>
+
+
+                <button class="tablinks1" data-city="second1">Profile</button>
+
+            </div>
+            <div>
+
+                <button id="visiblee1" class="tablinks21">Dropdown </button>
+            </div>
+
+
+        </div>
+
+        <div id="first1" class="tabcontent51 " style="display: block;">
+            <p>1Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua,
+                retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica.</p>
+        </div>
+
+        <div id="second1" class="tabcontent51 active">
+            <p>2Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua,
+                retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica.</p>
+        </div>
+
+        <div id="fourth1" class="tabcontent51">
+            <p>4Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua,
+                retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica.</p>
+        </div>
+        <div id="fifth1" class="tabcontent51">
+            <p>5Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua,
+                retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica.</p>
+        </div>
+        <div id="sixth1" class="tabcontent51">
+            <p>6Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua,
+                retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica.</p>
+        </div>
+        <div id="related1" class="relate1">
+            <li class="links11" data-content="fourth1">Home</li>
+            <li class="links11" data-content="fifth1">Home</li>
+            <li class="links11" data-content="sixth1">Home</li>
+        </div>
+    </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <br><br><br>
+    <br><br><br>
+    <br><br><br>
+
+
+
+    <div class="fullTab2">
+
+        <div id="first2" class="tabcontent52 " style="display: block;">
+            <p>1Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua,
+                retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica.</p>
+        </div>
+
+        <div id="second2" class="tabcontent52 active">
+            <p>2Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua,
+                retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica.</p>
+        </div>
+
+        <div id="fourth2" class="tabcontent52">
+            <p>4Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua,
+                retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica.</p>
+        </div>
+        <div id="fifth2" class="tabcontent52">
+            <p>5Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua,
+                retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica.</p>
+        </div>
+        <div id="sixth2" class="tabcontent52">
+            <p>6Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua,
+                retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica.</p>
+        </div>
+
+
+        <div class="tab2">
+            <button class="tablinks3 active" data-city="first2">Home
+            </button>
+
+            <button class="tablinks3" data-city="second2">Profile</button>
+
+            <button id="visiblee2" class="tablinks33">Dropdown <img src="./newArrow.png" alt=""></button>
+
+            <div id="related2" class="relate2">
+                <li class="links12" data-content="fourth2">Home</li>
+                <li class="links12" data-content="fifth2">Home</li>
+                <li class="links12" data-content="sixth2">Home</li>
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+
+
+
+
+
+
+
+    <br><br><br>
+    <br><br><br>
+
+
+
+
+
+
+
+
+
+
+
+    <div class="fullTab14">
+
+        <div id="first14" class="tabcontent54 " style="display: block;">
+            <p>1Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua,
+                retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica.</p>
+        </div>
+
+        <div id="second14" class="tabcontent54 active">
+            <p>2Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua,
+                retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica.</p>
+        </div>
+
+        <div id="fourth14" class="tabcontent54">
+            <p>4Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua,
+                retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica.</p>
+        </div>
+        <div id="fifth14" class="tabcontent54">
+            <p>5Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua,
+                retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica.</p>
+        </div>
+        <div id="sixth14" class="tabcontent54">
+            <p>6Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua,
+                retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica.</p>
+        </div>
+
+        <div class="tab14">
+            <div>
+
+                <button class="tablinks14 active" data-city="first14">Home
+                </button>
+            </div>
+            <div>
+
+
+                <button class="tablinks14" data-city="second14">Profile</button>
+
+            </div>
+            <div>
+
+                <button id="visiblee14" class="tablinks24">Dropdown </button>
+            </div>
+
+
+        </div>
+
+
+
+
+        <div id="related14" class="relate14">
+            <li class="links14" data-content="fourth14">Home</li>
+            <li class="links14" data-content="fifth14">Home</li>
+            <li class="links14" data-content="sixth14">Home</li>
+        </div>
+    </div>
+
+    </div>
+
+
+    <br><br><br>
+
+
+
+    <h1>Navbar</h1>
+
+    <div class="changes">
+        <ul class="navbar">
+            <li><a style="color: #26816a;" href="#home">Bootflat</a></li>
+            <li><a style="background-color: #48cfad; color: white;" href="#contact">Link</a></li>
+            <li><a class="dropsMenu" style="color: #26816a;" href="#about" onclick="toggleDropdown()">Dropdown <img
+                        src="./newArrow.png"></a>
+                <ul class="listItems" id="listItems">
+                    <li class="newlist">1 items</li>
+                    <li class="newlist">2 items</li>
+                </ul>
+            </li>
+        </ul>
+        <span class="newNav">
+            <img src="./search.png" alt="">
+            <input class="navbarSearch" type="text">
+        </span>
+    </div>
+
+
+
+
+    <br><br><br>
+
+    <div class="changes1">
+        <li class="bootFlat">Bootflat</li>
+        <li><a href="#">Sign in as Mark Otto</a></li>
+    </div>
+
+    <br><br><br>
+
+    <div class="changes2">
+        <li class="bootFlat">Bootflat</li>
+        <li><a href="#">Sign in as Mark Otto</a></li>
+    </div>
+
+    <br><br><br>
+
+    <div class="changes3">
+        <li class="bootFlat">Bootflat</li>
+        <button class="btns">Sign in</button>
+    </div>
+
+
+    <br><br><br>
+
+
+    <h1>Pills</h1>
+
+
+
+
+
+
+    <div class="pill-2">
+        <button class="pill-btn active">
+            Home <span class="pill-num">42</span>
+        </button>
+
+        <button class="pill-btn">
+            Profile <span class="pill-num">42</span>
+        </button>
+
+        <button class="pill-btn pill-dropdown-btn">
+            Dropdown <img class="pill-dropdown-arrow" src="./bluearrow.png" alt="">
+            <ul>
+                <li>New</li>
+                <li>Open</li>
+            </ul>
+        </button>
+    </div>
+
+    <div class="pills">
+        <span class="newPills">Home</span>
+        <span class="newPills1">42</span>
+    </div>
+
+    <span class="profileChange">
+        Profile
+    </span>
+
+    <div class="spacing">
+        <span class="messages">Message</span>
+        <span class="messages1">42</span>
+    </div>
+
+
+
+    <h1>BreadCrumb</h1>
+
+    <div>
+        <ul class="breadcrumb">
+            <li><a>Home</a></li>
+            <li><a>Library</a></li>
+            <li>Date</li>
+        </ul>
+    </div>
+
+    <nav class="breadcrumbs">
+        <a class="breadcrumbs__item">Home</a>
+        <a class="breadcrumbs__item">Library</a>
+        <a class="bread">Date</a>
+    </nav>
+    <div>
+
+        <nav class="breadcrumbs">
+            <a class="breadcrumbs__item"> <img src="./newHome.png" alt="">
+                Home</a>
+            <a class="breadcrumbs__item"> <img src="./library.png" alt="">
+                Library</a>
+            <a class="bread"> <img src="./date.png" alt="">
+                Date</a>
+        </nav>
+
+    </div>
+
+
+
+    <div style="background-color: #e6e9ed;">
+        <div id="myBar" class="progress"></div>
+    </div>
+
+    <br>
+    <div style="background-color: #e6e9ed;">
+
+        <div id="myBar1" class="progress1"></div>
+
+    </div>
+    <br>
+
+
+    <div class="loading-bar animate">
+        <span id="myBar2" class="progressive"></span>
+    </div>
+    <br>
+
+    <h1>Pagination</h1>
+
+    <div class="firstpage">
+
+        <div class="pagination" style="display: flex;">
+            <a style="background-color: #8cc152; color: white; border-radius: 5px 0px 0px 5px; border: none;">PREV</a>
+            <a>1</a>
+            <a class="active">2</a>
+            <a>3</a>
+            <a>4</a>
+            <a style="color: #e6e9ed;">5</a>
+            <a style="background-color: #8cc152; color: white; border-radius: 0px 5px 5px 0px; border: none;">NEXT</a>
+        </div>
+
+    </div>
+
+    <br>
+    <h1>Accordions</h1>
+
+    <div class="shadow">
+        <button class="accordion">Collapsible Group Item #1</button>
+        <div class="panel" style="display: block;">
+            <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf
+                moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
+                Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda
+                shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea
+                proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim
+                aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</p>
+        </div>
+        <button class="accordion">Collapsible Group Item #2</button>
+        <div class="panel">
+            <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf
+                moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
+                Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda
+                shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea
+                proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim
+                aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</p>
+        </div>
+        <button class="accordion">Collapsible Group Item #3</button>
+        <div class="panel">
+            <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf
+                moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
+                Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda
+                shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea
+                proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim
+                aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</p>
+        </div>
+    </div>
+
+
+    <br>
+    <h1>Lists</h1>
+
+    <div class="newshadow">
+        <li>
+            Cras justo odio
+            <span class="f1">14</span>
+        </li>
+        <li>
+            Dapibus ac facilisis in
+            <span class="f2">91</span>
+        </li>
+        <li>
+            Morbi leo risus
+            <span class="f3">38</span>
+        </li>
+        <li>
+            Porta ac consectetur ac
+            <span class="f4">56</span>
+        </li>
+        <li>
+            Vestibulum at eros
+            <span class="f5">20</span>
+        </li>
+        <li>
+            Dapibus ac facilisis in
+            <span class="f6">99+</span>
+        </li>
+    </div>
+
+    <br>
+
+    <div class="heading">
+        <div class="same">
+            <li>List group item heading</li>
+            <p>Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+
+        </div>
+        <div class="same">
+            <li>List group item heading</li>
+            <p>Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+
+        </div>
+        <div class="same">
+            <li>List group item heading </li>
+            <p>Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+
+        </div>
+    </div>
+
+
+    <H1>jumbotron</H1>
+
+    <div class="jump">
+
+        <div class="jumbotron">
+            <img class="jumbotron-image" src="./background Image.png" alt="">
+            <div class="jumbotron-wrap">
+                <h2 class="jumbotron-heading">Implementing the HTML and CSS into your user interface project</h2>
+                <h3 class="jumbotron-heading1"> HTML Structure</h3>
+                <p class="jumbotron-para">This is a simple hero unit, a simple jumbotron-style component
+                    for calling extra attention to featured content or information.</p>
+                <h3 class="jumbotron-heading1"> CSS Structure</h3>
+                <p class="jumbotron-para">This is a simple hero unit, a simple jumbotron-style component
+                    for calling extra attention to featured content or information.</p>
+            </div>
+
+        </div>
+
+        <br>
+
+
+        <div class="jumbotron-parent">
+            <div class="jumbotron-slide">
+                <div>
+                    <img class="slider-image" src="./car1.jpg" alt="">
+                </div>
+
+                <div>
+                    <img class="slider-image" src="./car2.avif" alt="">
+                </div>
+
+                <div>
+                    <img class="slider-image" src="./car3.avif" alt="">
+                </div>
+            </div>
+            <div class="jumbotron-wrap">
+                <h2 class="jumbotron-heading">Implementing the HTML and CSS into your user interface project</h2>
+                <h3 class="jumbotron-heading1"> HTML Structure</h3>
+                <p class="jumbotron-para">This is a simple hero unit, a simple jumbotron-style component
+                    for calling extra attention to featured content or information.</p>
+                <h3 class="jumbotron-heading1"> CSS Structure</h3>
+                <p class="jumbotron-para">This is a simple hero unit, a simple jumbotron-style component
+                    for calling extra attention to featured content or information.</p>
+            </div>
+
+        </div>
+
+
+
+
+    </div>
+
+    <h1>Progresses</h1>
+
+    <div class="progresses">
+        <img class="progress-image" src="./progresses-image.png">
+        <div class="progress-wrap">
+            <h3 class="progress-heading">Thumbnail label</h3>
+            <p class="progress-para">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi
+                porta gravida at eget
+                metus. Nullam id ...</p>
+        </div>
+        <div class="progress-btn">
+            <button class="yellow-btn">Button</button>
+            <button class="white-btn">Button</button>
+        </div>
+    </div>
+
+
+    <h1>Well</h1>
+
+    <div class="well">
+        <p class="well-para">Look, I'm in a well!</p>
+    </div>
+
+
+    <h1>Panel</h1>
+
+    <div class="panel-parent">
+        <p class="panel-title active">Panel title</p>
+        <p class="panel-content">Panel content</p>
+    </div>
+
+
+    <h1>Modals</h1>
+    <button id="myBtn">Open Modal</button>
+
+    <div class="modal" id="myModal">
+        <span class="close-btn" style="color: #cccccc;"><img src="./crossed.png" onclick="closed()"></span>
+        <div class="modal-head">
+            <label>Contact</label>
+        </div>
+        <p class="modal-para">Feel free to contact us for any issues you might have with our products</p>
+        <div class="modal-input">
+            <div class="modal-name">
+                <label>Name</label>
+                <input type="text" placeholder="Name">
+            </div>
+            <div class="modal-email">
+                <label>Email</label>
+                <input type="text" placeholder="Email">
+            </div>
+        </div>
+        <div class="modal-textarea">
+            <label>Message</label>
+        </div>
+        <div class="text-parent">
+            <textarea class="text" cols="6" row="6"
+                rows="4">Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo</textarea>
+        </div>
+        <div class="modal-btn">
+            <button class="modal-close" id="close-modal">Close</button>
+            <button class="modal-send">Send</button>
+        </div>
+    </div>
+
+
+
+
+    <h1>Panels</h1>
+    <div class="All-panels">
+        <div class="panel-head">
+            <img src="./panel image.png" alt="">
+            <div class="panel-para">
+                <p class="panels-paras">Media heading</p>
+                <p class="panel-paras-1">12 Apr, 2013 at12:00</p>
+                <p class="panels-para">Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
+                    sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis </p>
+            </div>
+        </div>
+
+        <div class="panel-head-1">
+            <img src="./nested-media.png" alt="">
+            <div class="panel-para">
+                <p class="panels-paras">Nested media heading</p>
+                <p class="panel-paras-1">12 Apr, 2013 at 12:10</p>
+                <p class="panels-para">Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
+                    sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.</p>
+            </div>
+        </div>
+
+        <div class="panel-head-2">
+            <img src="./nested-media.png" alt="">
+            <div class="panel-para">
+                <p class="panels-paras">Nested media heading</p>
+                <p class="panel-paras-1">12 Apr, 2013 at 12:20</p>
+                <p class="panels-para">Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
+                    sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis </p>
+            </div>
+        </div>
+
+        <div class="panel-head-3">
+            <img src="./nested-media.png" alt="">
+            <div class="panel-para">
+                <p class="panels-paras">Nested media heading</p>
+                <p class="panel-paras-1">12 Apr, 2013 at 12:30</p>
+                <p class="panels-para">Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
+                    sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis </p>
+            </div>
+        </div>
+
+        <div class="panel-head-4">
+            <div class="panel-para">
+                <p class="panels-paras">Media heading</p>
+                <p class="panel-paras-1">12 Apr, 2013 at 12:50</p>
+                <p class="panels-para">Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
+                    sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis </p>
+            </div>
+            <img src="./panel image.png">
+
+        </div>
+
+    </div>
+
+
+    <br><br>
+
+    <div class="table-container">
+        <p class="table-para">Panel heading</p>
+        <table class="custom-table">
+
+            <tr class="table-row">
+                <th class="table-head">#</th>
+                <th class="table-head">First Name</th>
+                <th class="table-head">Last Name</th>
+                <th class="table-head">Username</th>
+            </tr>
+
+            <tr class="table-row">
+                <td class="table-data">1</td>
+                <td class="table-data">Mark</td>
+                <td class="table-data">Otto</td>
+                <td class="table-data">@mdo</td>
+            </tr>
+            <tr class="table-row">
+                <td class="table-data">2</td>
+                <td class="table-data">Jacob</td>
+                <td class="table-data">Thornton</td>
+                <td class="table-data">@fat</td>
+            </tr>
+            <tr class="table-row">
+                <td class="table-data">3</td>
+                <td class="table-data">Larry</td>
+                <td class="table-data">the Bird</td>
+                <td class="table-data">@twitter</td>
+            </tr>
+        </table>
+    </div>
+
+
+
+
+
+    <br><br>
+
+    <div class="panel-container">
+        <button class="panel-btn open">Panel heading</button>
+        <div class="div-panel" style="display: block; ">
+            <p>
+                Some default panel content here. Nulla vitae elit libero, a pharetra augue. Aenean lacinia bibendum
+                nulla sed consectetur. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.
+                Nullam id dolor id nibh ultricies vehicula ut id elit.
+            </p>
+        </div>
+
+        <button class="panel-btn">Cras justo odio</button>
+        <div class="div-panel">
+            <p>
+                Some default panel content here. Nulla vitae elit libero, a pharetra augue. Aenean lacinia bibendum
+                nulla sed consectetur. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.
+                Nullam id dolor id nibh ultricies vehicula ut id elit.
+            </p>
+        </div>
+
+        <button class="panel-btn">Dapibus ac facilisis in</button>
+        <div class="div-panel">
+            <p>
+                Some default panel content here. Nulla vitae elit libero, a pharetra augue. Aenean lacinia bibendum
+                nulla sed consectetur. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.
+                Nullam id dolor id nibh ultricies vehicula ut id elit.
+            </p>
+        </div>
+        <button class="panel-btn">Morbi leo risus</button>
+        <div class="div-panel">
+            <p>
+                Some default panel content here. Nulla vitae elit libero, a pharetra augue. Aenean lacinia bibendum
+                nulla sed consectetur. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.
+                Nullam id dolor id nibh ultricies vehicula ut id elit.
+            </p>
+        </div>
+        <button class="panel-btn">Porta ac consectetur ac</button>
+        <div class="div-panel">
+            <p>
+                Some default panel content here. Nulla vitae elit libero, a pharetra augue. Aenean lacinia bibendum
+                nulla sed consectetur. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.
+                Nullam id dolor id nibh ultricies vehicula ut id elit.
+            </p>
+        </div>
+        <button class="panel-btn">Vestibulum at eros</button>
+        <div class="div-panel">
+            <p>
+                Some default panel content here. Nulla vitae elit libero, a pharetra augue. Aenean lacinia bibendum
+                nulla sed consectetur. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.
+                Nullam id dolor id nibh ultricies vehicula ut id elit.
+            </p>
+        </div>
+    </div>
+
+
+    <h1>Footer</h1>
+
+    <div class="footer">
+        <div class="footer-content">
+            <div class="bootflat-image">
+                <img src="./bootflat.png" alt="">
+                <h3>Bootflat</h3>
+            </div>
+
+            <div class="footer-wrap">
+                <ul class="footer-list">
+                    <li class="list-items">PORTFOLIO</li>
+                    <li class="list-items">Web Design</li>
+                    <li class="list-items">branding & Identity</li>
+                    <li class="list-items">Mobile Design</li>
+                    <li class="list-items">Print</li>
+                    <li class="list-items">User Interface</li>
+                </ul>
+                <ul class="footer-list">
+                    <li class="list-items">ABOUT</li>
+                    <li class="list-items">The Company</li>
+                    <li class="list-items">History</li>
+                    <li class="list-items">Vision</li>
+                </ul>
+                <ul class="footer-list">
+                    <li class="list-items">Gallery</li>
+                    <li class="list-items">Flickr</li>
+                    <li class="list-items">Picasa</li>
+                    <li class="list-items">iStockPhoto</li>
+                    <li class="list-items">PhotoDune</li>
+                </ul>
+                <ul class="footer-list">
+                    <li class="list-items">Contact</li>
+                    <li class="list-items">Basic Info</li>
+                    <li class="list-items">Map</li>
+                    <li class="list-items">Contact Form</li>
+                </ul>
+            </div>
+        </div>
+        <div>
+            <div class="bootflat-footer">Copyright © 2014 Flathemes.All rights reserved.</div>
+        </div>
+    </div>
+
+
+    <h1>Typography</h1>
+
+    <div class="typography">
+        <div class="typography-header">
+            <p class="typography-para">Header1</p>
+            <h1 class="typography-heading">Showers across the W</h1>
+        </div>
+        <div class="typography-header">
+            <p class="typography-para">Header1</p>
+            <h1 class="typography-heading">Showers across the W</h1>
+        </div>
+        <div class="typography-header">
+            <p class="typography-para">Header2</p>
+            <h2 class="typography-heading">Give this quartet a few</h2>
+        </div>
+        <div class="typography-header">
+            <p class="typography-para">Header3</p>
+            <h3 class="typography-heading">The Vatican transitions to a</h3>
+        </div>
+        <div class="typography-header">
+            <p class="typography-para">Header4</p>
+            <h4 class="typography-heading">Great American Bites: Telluride's Oak, The</h4>
+        </div>
+        <div class="typography-header">
+            <p class="typography-para">Header5</p>
+            <h4 class="typography-heading">Author Diane Alberts loves her some good</h4>
+        </div>
+
+        <div class="typography-header">
+            <p class="typography-para">Header6</p>
+            <h4 class="typography-heading">With the success of young-adult book-to-movie</h4>
+        </div>
+        <div class="typography-header">
+            <p class="typography-para">Paragraph</p>
+            <p class="typography-paragraph">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
+                ridiculus mus. Donec ullamcorper
+                nulla
+                non metus auctor fringilla. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget
+                lacinia
+                odio sem nec elit.</p>
+        </div>
+        <div class="typography-header">
+            <p class="typography-para">Image</p>
+            <img src="./typography-image.png">
+        </div>
+
+        <div class="typography-italic">
+            <i>
+                <p><b>Note:</b> gravida at eget metus. Duis mollis, est non commodo luctus, nisi erat porttitor ligula,
+                    eget lacinia odio sem nec elit.</p>
+            </i>
+        </div>
+        <div class="typography-header">
+            <p class="typography-para">Lead Text</p>
+            <p class="lead-text">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+            </p>
+        </div>
+
+        <div class="typography-header">
+            <p class="typography-paras">Quote</p>
+            <div class="typography-wrap">
+                <p class="typography-quote">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
+                    ridiculus mus.
+                </p>
+                <p class="small">-Steve Jobs, CEO Apple</p>
+            </div>
+
+        </div>
+
+        <div class="typography-header">
+            <p class="small-font">Small Font</p>
+            <p class="typography-par">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus
+                mus. Donec ullamcorper nulla non metus auctor fringilla. Duis mollis, est non commodo luctus, nisi erat
+                porttitor ligula, eget lacinia odio sem nec elit
+            </p>
+        </div>
+    </div>
+    <h1>Timeline</h1>
+    <br><br><br><br>
+    <br><br><br><br>
+
+
+    <div class="timeline">
+        <span class="timeline-time">Apr 2014</span>
+        <!-- <span class="timeline-date-1">Apr 14</span> -->
+        <div class="card-container right">
+            <span class="timeline-date">Apr 14</span>
+
+            <div class="content">
+
+                <div class="timeline-image">
+                    <img src="./timeline.png">
+                </div>
+                <div>
+                    <span class="timeline-head">Bootstrap</span>
+                    <p class="timeline-para">Raw denim you probably haven't heard of them
+                        jean shorts Austin. Nesciunt tofu stumptown
+                        aliqua, retro synth master cleanse. Mustache .</p>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="card-container left">
+            <span class="timeline-date">Apr 10</span>
+            <div class="content">
+                <div class="timeline-image">
+                    <img src="./timeline second.png">
+                </div>
+                <div>
+                    <span class="timeline-head">Bootsflat</span>
+                    <p class="timeline-para">Raw denim you probably haven't heard of them
+                        jean shorts Austin. Nesciunt tofu stumptown
+                        aliqua, retro synth master cleanse. Mustache .</p>
+                </div>
+            </div>
+        </div>
+
+        <span class="timeline-time">Apr 2014</span>
+        <div class="card-container right">
+            <span class="timeline-date">Mar 15</span>
+
+            <div class="content">
+                <div class="timeline-image">
+                    <img src="./timeline-third.png">
+                </div>
+                <div>
+                    <span class="timeline-head">Flat UI</span>
+                    <p class="timeline-para">Raw denim you probably haven't heard of them
+                        jean shorts Austin. Nesciunt tofu stumptown
+                        aliqua, retro synth master cleanse. Mustache .</p>
+                </div>
+            </div>
+        </div>
+        <div class="card-container left">
+            <span class="timeline-date">Mar 8</span>
+            <div class="content">
+                <div class="timeline-image">
+                    <img src="./fourth-timeline.png">
+                </div>
+                <div>
+                    <span class="timeline-head">UI design</span>
+                    <p class="timeline-para">Raw denim you probably haven't heard of them
+                        jean shorts Austin. Nesciunt tofu stumptown
+                        aliqua, retro synth master cleanse. Mustache .</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+    <h1>pricing</h1>
+
+    <div class="price-cards">
+        <div class="pricing blue-card">
+            <div class="pricing-head">
+                <h3 class="price-head">$599</h3>
+                <p class="price-para">per month</p>
+            </div>
+            <div class="price-container">
+                <div class="pricing-content">
+                    <h4 class="price-basic">Basic</h4>
+                    <p class="basic-para">Lots of clients & users
+                    </p>
+                </div>
+                <div class="pricing-detail">
+                    <div class="pricing-wrap">
+                        <p class="pricing-storage">250 SKU's</p>
+                        <p class="pricing-storage">1 GB Storage</p>
+                        <p class="pricing-storage">3,5% transaction fee</p>
+                    </div>
+                </div>
+            </div>
+            <div class="btn-container">
+                <button class="pricing-btn">Try a Week</button>
+            </div>
+        </div>
+
+        <div class="pricing green-card">
+            <div class="pricing-head">
+                <h3 class="price-head">$299</h3>
+                <p class="price-para">per month</p>
+            </div>
+            <div class="price-container">
+                <div class="pricing-content">
+                    <h4 class="price-basic">Unlimited</h4>
+                    <p class="basic-para">Lots of clients & users
+                    </p>
+                </div>
+                <div class="pricing-detail">
+                    <div class="pricing-wrap">
+                        <p class="pricing-storage">2500 SKU's</p>
+                        <p class="pricing-storage">5 GB Storage</p>
+                        <p class="pricing-storage">1,5% transaction fee</p>
+                    </div>
+                </div>
+            </div>
+            <div class="btn-container">
+                <button class="pricing-btn">Buy Now</button>
+            </div>
+        </div>
+
+
+        <div class="pricing yellow-card">
+            <div class="pricing-head">
+                <h3 class="price-head">$499</h3>
+                <p class="price-para">per month</p>
+            </div>
+            <div class="price-container">
+                <div class="pricing-content">
+                    <h4 class="price-basic">Unlimited</h4>
+                    <p class="basic-para">Lots of clients & users
+                    </p>
+                </div>
+                <div class="pricing-detail">
+                    <div class="pricing-wrap">
+                        <p class="pricing-storage">Unlimited SKU's</p>
+                        <p class="pricing-storage">20 GB Storage</p>
+                        <p class="pricing-storage">3,5% transaction fee</p>
+                    </div>
+                </div>
+            </div>
+            <div class="btn-container">
+                <button class="pricing-btn">Subscribe</button>
+            </div>
+        </div>
+    </div>
+
+
+    <h1>Calendar</h1>
+
+
+    <div class="container-calendar">
+        <div id="calendar">
+        </div>
+    </div>
+
+
+    <script src="App.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.3/jquery-ui.js"
+        integrity="sha256-J8ay84czFazJ9wcTuSDLpPmwpMXOm573OUtZHPQqpEU=" crossorigin="anonymous"></script>
+</body>
+
+</html>
